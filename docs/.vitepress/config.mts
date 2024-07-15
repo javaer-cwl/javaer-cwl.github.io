@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/blog/',
   title: "实习两年半",
   head: [
-    ['link', { rel: 'icon', href: '/blog/favicongit init.ico'}],
+    ['link', { rel: 'icon', href: '/blog/favicon.ico'}],
   ],
   description: "做一个快乐的钓鱼佬🎣",
   themeConfig: {
