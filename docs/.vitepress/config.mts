@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/blog/',
+  base: '/',
   title: "实习两年半",
   head: [
-    ['link', { rel: 'icon', href: '/blog/favicon.ico'}],
+    ['link', { rel: 'icon', href: '/favicon.ico'}],
   ],
   description: "做一个快乐的钓鱼佬🎣",
   themeConfig: {
