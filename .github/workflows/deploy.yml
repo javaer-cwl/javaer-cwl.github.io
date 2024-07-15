@@ -49,22 +49,25 @@ jobs:
           node-version: 20
 
       # 使用最新的 PNPM
-      # 你也可以指定为具体的版本
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: latest
-          run_install: false
+          run_install: true  # 这里设为 true 以确保安装 pnpm
 
       # 安装依赖
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      # 确保 node_modules 安装
+      - name: Ensure node_modules
+        run: pnpm install
+
       # 构建项目
       - name: Build blog project
         run: |
           echo ${{ github.workspace }}
-          pnpm run docs:build
+          pnpm docs:build
 
       # 资源拷贝
       - name: Build with Jekyll
