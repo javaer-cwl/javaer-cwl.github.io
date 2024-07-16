@@ -20,7 +20,7 @@ export default defineConfig({
         text: '常用框架',
         items:[
           {
-            text:'Spring5',link:'/1112',
+            text:'Spring5',link:'/framework/spring5/1.spring5入门案例',
           },
           {
             text:'SpringBoot',link:'/12',
@@ -43,6 +43,44 @@ export default defineConfig({
           items: [
             { text: '缓存异常', link: '/interview/redis/0.Redis异常' },
             { text: '主从、哨兵、集群', link: '/interview/redis/2.Redis' },
+          ]
+        }
+      ],
+      '/framework/spring5/': [
+        {
+          text: 'IOC xml bean管理',
+          collapsed: true,
+          items: [
+            { text: 'Spring5入门案例', link: '/framework/spring5/1.spring5入门案例' },
+            { text: 'IOC（xml bean 管理）创建对象，DI注入基本属性', link: '/framework/spring5/' },
+            { text: 'IOC（xml bean 管理）注入null值和特殊符号', link: '/framework/spring5/' },
+            { text: '04.IOC（xml bean 管理）注入内/外部bean、级联赋值、集合类型', link: '/framework/spring5/' },
+            { text: 'IOC（xml bean 管理）FactoryBean', link: '/framework/spring5/' },
+            { text: 'IOC（xml bean 管理）bean的作用域、生命周期', link: '/framework/spring5/' },
+            { text: 'IOC（xml bean 管理）自动装配', link: '/framework/spring5/' },
+            { text: 'IOC（xml bean 管理）外部属性文件', link: '/framework/spring5/' },
+            { text: 'IOC (注解 bean 管理) 创建对象', link: '/framework/spring5/' },
+            { text: 'IOC (注解 bean 管理) 注入属性', link: '/framework/spring5/' },
+            { text: 'IOC (注解 bean 管理) 纯注解开发', link: '/framework/spring5/' },
+          ]
+        },
+        {
+          text: 'IOC注解实现',
+          collapsed: true,
+          items: [
+            { text: 'IOC (注解 bean 管理) 创建对象', link: '/framework/spring5/' },
+            { text: 'IOC (注解 bean 管理) 注入属性', link: '/framework/spring5/' },
+            { text: 'IOC (注解 bean 管理) 纯注解开发', link: '/framework/spring5/' },
+          ]
+        },
+        {
+          text: 'AOP xml与注解',
+          collapsed: true,
+          items: [
+            { text: 'AOP 基本概念、底层原理、术语', link: '/framework/spring5/' },
+            { text: 'AOP 环境配置', link: '/framework/spring5/' },
+            { text: 'AOP 操作（AspectJ 注解）常用', link: '/framework/spring5/' },
+            { text: 'AOP 操作（AspectJ xml )', link: '/framework/spring5/' },
           ]
         }
       ],
