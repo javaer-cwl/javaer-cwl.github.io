@@ -36,6 +36,7 @@ export default defineConfig({
     },
     // 多侧边栏
     sidebar:{
+      // 面试题
       '/interview/': [
         {
           text: 'Redis 面试全集',
@@ -46,44 +47,43 @@ export default defineConfig({
           ]
         }
       ],
+      // 常用框架Spring5
       '/framework/spring5/': [
         {
           text: 'IOC xml bean管理',
           collapsed: true,
           items: [
             { text: 'Spring5入门案例', link: '/framework/spring5/1.spring5入门案例' },
-            { text: 'IOC（xml bean 管理）创建对象，DI注入基本属性', link: '/framework/spring5/' },
-            { text: 'IOC（xml bean 管理）注入null值和特殊符号', link: '/framework/spring5/' },
-            { text: '04.IOC（xml bean 管理）注入内/外部bean、级联赋值、集合类型', link: '/framework/spring5/' },
-            { text: 'IOC（xml bean 管理）FactoryBean', link: '/framework/spring5/' },
-            { text: 'IOC（xml bean 管理）bean的作用域、生命周期', link: '/framework/spring5/' },
-            { text: 'IOC（xml bean 管理）自动装配', link: '/framework/spring5/' },
-            { text: 'IOC（xml bean 管理）外部属性文件', link: '/framework/spring5/' },
-            { text: 'IOC (注解 bean 管理) 创建对象', link: '/framework/spring5/' },
-            { text: 'IOC (注解 bean 管理) 注入属性', link: '/framework/spring5/' },
-            { text: 'IOC (注解 bean 管理) 纯注解开发', link: '/framework/spring5/' },
+            { text: 'IOC（xml bean 管理）创建对象，DI注入基本属性', link: '/framework/spring5/2.DI注入基本属性' },
+            { text: 'IOC（xml bean 管理）注入null值和特殊符号', link: '/framework/spring5/3.注入null值和特殊符号' },
+            { text: '04.IOC（xml bean 管理）注入内/外部bean、级联赋值、集合类型', link: '/framework/spring5/4.注入内_外部bean、级联赋值、集合类型' },
+            { text: 'IOC（xml bean 管理）FactoryBean', link: '/framework/spring5/5.FactoryBean' },
+            { text: 'IOC（xml bean 管理）bean的作用域、生命周期', link: '/framework/spring5/6.bean的作用域、生命周期' },
+            { text: 'IOC（xml bean 管理）自动装配', link: '/framework/spring5/7.自动装配' },
+            { text: 'IOC（xml bean 管理）外部属性文件', link: '/framework/spring5/8.外部属性文件' },
           ]
         },
         {
           text: 'IOC注解实现',
           collapsed: true,
           items: [
-            { text: 'IOC (注解 bean 管理) 创建对象', link: '/framework/spring5/' },
-            { text: 'IOC (注解 bean 管理) 注入属性', link: '/framework/spring5/' },
-            { text: 'IOC (注解 bean 管理) 纯注解开发', link: '/framework/spring5/' },
+            { text: 'IOC (注解 bean 管理) 创建对象', link: '/framework/spring5/9.创建对象' },
+            { text: 'IOC (注解 bean 管理) 注入属性', link: '/framework/spring5/10.注入属性' },
+            { text: 'IOC (注解 bean 管理) 纯注解开发', link: '/framework/spring5/11.纯注解开发' },
           ]
         },
         {
           text: 'AOP xml与注解',
           collapsed: true,
           items: [
-            { text: 'AOP 基本概念、底层原理、术语', link: '/framework/spring5/' },
-            { text: 'AOP 环境配置', link: '/framework/spring5/' },
-            { text: 'AOP 操作（AspectJ 注解）常用', link: '/framework/spring5/' },
-            { text: 'AOP 操作（AspectJ xml )', link: '/framework/spring5/' },
+            { text: 'AOP 基本概念、底层原理、术语', link: '/framework/spring5/12.AOP 基本概念、底层原理、术语' },
+            { text: 'AOP 环境配置', link: '/framework/spring5/13.AOP环境搭建' },
+            { text: 'AOP 操作（AspectJ 注解）常用', link: '/framework/spring5/14.AOP 操作（AspectJ 注解）常用' },
+            { text: 'AOP 操作（AspectJ xml )', link: '/framework/spring5/15.AOP 操作（AspectJ xml )' },
           ]
         }
       ],
+      // docker笔记
       '/docker/': [
         {
           text: 'Docker精简笔记',
@@ -100,6 +100,7 @@ export default defineConfig({
           ]
         }
       ],
+      // linux运维
       '/linux/': [
         {
           text: '常用命令',
