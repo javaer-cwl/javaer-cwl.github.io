@@ -12,12 +12,16 @@ export default defineConfig({
     logo: '/favicon.ico',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '主页', link: '/' },
       { text: 'Docker笔记', link: '/docker/1.Docker安装' },
-      { text: 'Linux命令', link: '/linux/基础命令/1.解压缩' },
+      { text: 'Linux运维', link: '/linux/基础命令/1.解压缩' },
+      { text: '面试题', link: '/interview/redis/0.Redis异常' },
       {
         text: '常用框架',
         items:[
+          {
+            text:'Spring5',link:'/1112',
+          },
           {
             text:'SpringBoot',link:'/12',
           },
@@ -32,6 +36,16 @@ export default defineConfig({
     },
     // 多侧边栏
     sidebar:{
+      '/interview/': [
+        {
+          text: 'Redis 面试全集',
+          collapsed: false,
+          items: [
+            { text: '缓存异常', link: '/interview/redis/0.Redis异常' },
+            { text: '主从、哨兵、集群', link: '/interview/redis/2.Redis' },
+          ]
+        }
+      ],
       '/docker/': [
         {
           text: 'Docker精简笔记',
@@ -86,23 +100,7 @@ export default defineConfig({
         }
       ],
     },
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     collapsed: false,
-    //     items: [
-    //       { text: '222', link: '/markdown-examples' },
-    //       { text: '111', link: '/api-examples' }
-    //     ]
-    //   },
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: '222', link: '/markdown-examples' },
-    //       { text: '111', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
