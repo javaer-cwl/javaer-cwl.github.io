@@ -68,8 +68,9 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '压缩与解压', link: '/linux/基础命令/1.解压缩' },
-            { text: '文件与目录', link: '/linux/基础命令/2.解压缩' },
+            { text: '文件与目录', link: '/linux/基础命令/2.文件目录' },
             { text: '用户、用户组', link: '/linux/基础命令/3.解压缩' },
+            { text: '文件权限', link: '111dfdd' },
             { text: 'Vim命令', link: '/linux/基础命令/4.解压缩' },
             { text: '磁盘管理', link: '/linux/基础命令/5.解压缩' },
             { text: '系统目录', link: '/linux/基础命令/6.解压缩' },
