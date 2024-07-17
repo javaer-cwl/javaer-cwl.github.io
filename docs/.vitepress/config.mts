@@ -13,6 +13,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
+      { text: '随笔', link: '/other/0.JAVA中锁介绍' },
       { text: 'Docker笔记', link: '/docker/1.Docker安装' },
       { text: 'Linux运维', link: '/linux/基础命令/1.解压缩' },
       { text: '面试题', link: '/interview/redis/0.Redis异常' },
@@ -47,6 +48,45 @@ export default defineConfig({
           items: [
             { text: '缓存异常', link: '/interview/redis/0.Redis异常' },
             { text: '主从、哨兵、集群', link: '/interview/redis/2.Redis' },
+          ]
+        }
+      ],
+      // linux运维
+      '/linux/': [
+        {
+          text: '常用命令',
+          collapsed: false,
+          items: [
+            { text: '压缩与解压', link: '/linux/基础命令/1.解压缩' },
+            { text: '文件与目录', link: '/linux/基础命令/2.文件目录' },
+            { text: '用户、用户组', link: '/linux/基础命令/3.解压缩' },
+            { text: '文件权限', link: '111dfdd' },
+            { text: 'Vim命令', link: '/linux/基础命令/4.解压缩' },
+            { text: '磁盘管理', link: '/linux/基础命令/5.解压缩' },
+            { text: '系统目录', link: '/linux/基础命令/6.解压缩' },
+          ]
+        },
+        {
+          text: '磁盘管理',
+          collapsed: false,
+          items: [
+            { text: '相关命令', link: '/linux/基础命令/7.解压缩' },
+            { text: '磁盘挂载', link: '/linux/基础命令/8.解压缩' },
+            { text: '磁盘空间调节', link: '/linux/基础命令/9.解压缩' },
+            { text: '磁盘格式化', link: '/linux/基础命令/10.解压缩' },
+            { text: '磁盘分区', link: '/linux/基础命令/11.解压缩' },
+          ]
+        },
+        {
+          text: '其它',
+          collapsed: false,
+          items: [
+            { text: '时间同步', link: '/linux/基础命令/12.解压缩' },
+            { text: 'DNS配置', link: '/linux/基础命令/13.解压缩' },
+            { text: '定时任务', link: '/linux/基础命令/14.解压缩' },
+            { text: '守护进程', link: '/linux/基础命令/15.解压缩' },
+            { text: '端口映射', link: '/linux/基础命令/15.解压缩' },
+            { text: '防火墙', link: '/linux/基础命令/15.解压缩' },
           ]
         }
       ],
@@ -122,42 +162,15 @@ export default defineConfig({
           ]
         }
       ],
-      // linux运维
-      '/linux/': [
+      // 随笔
+      '/other/': [
         {
-          text: '常用命令',
+          text: '爱意随风去',
           collapsed: false,
           items: [
-            { text: '压缩与解压', link: '/linux/基础命令/1.解压缩' },
-            { text: '文件与目录', link: '/linux/基础命令/2.文件目录' },
-            { text: '用户、用户组', link: '/linux/基础命令/3.解压缩' },
-            { text: '文件权限', link: '111dfdd' },
-            { text: 'Vim命令', link: '/linux/基础命令/4.解压缩' },
-            { text: '磁盘管理', link: '/linux/基础命令/5.解压缩' },
-            { text: '系统目录', link: '/linux/基础命令/6.解压缩' },
-          ]
-        },
-        {
-          text: '磁盘管理',
-          collapsed: false,
-          items: [
-            { text: '相关命令', link: '/linux/基础命令/7.解压缩' },
-            { text: '磁盘挂载', link: '/linux/基础命令/8.解压缩' },
-            { text: '磁盘空间调节', link: '/linux/基础命令/9.解压缩' },
-            { text: '磁盘格式化', link: '/linux/基础命令/10.解压缩' },
-            { text: '磁盘分区', link: '/linux/基础命令/11.解压缩' },
-          ]
-        },
-        {
-          text: '其它',
-          collapsed: false,
-          items: [
-            { text: '时间同步', link: '/linux/基础命令/12.解压缩' },
-            { text: 'DNS配置', link: '/linux/基础命令/13.解压缩' },
-            { text: '定时任务', link: '/linux/基础命令/14.解压缩' },
-            { text: '守护进程', link: '/linux/基础命令/15.解压缩' },
-            { text: '端口映射', link: '/linux/基础命令/15.解压缩' },
-            { text: '防火墙', link: '/linux/基础命令/15.解压缩' },
+            { text: 'JAVA中锁介绍', link: '/other/0.JAVA中锁介绍' },
+            { text: 'JUC提供的相关锁', link: '/other/1.JUC提供的相关锁' },
+            { text: '线程死锁的问题', link: '/other/3.线程死锁的问题' },
           ]
         }
       ],
