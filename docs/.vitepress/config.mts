@@ -22,11 +22,14 @@ export default defineConfig({
           {
             text:'Spring5',link:'/framework/spring5/1.spring5入门案例',
           },
+          // {
+          //   text:'SpringBoot',link:'/12',
+          // },
+          // {
+          //   text:'Mybatis/Plus',link:'/222',
+          // },
           {
-            text:'SpringBoot',link:'/12',
-          },
-          {
-            text:'Mybatis/Plus',link:'/222',
+            text:'SpringCloud',link:'/framework/SpringCloud/1.父模块项目搭建',
           }
         ]
       }
@@ -80,6 +83,25 @@ export default defineConfig({
             { text: 'AOP 环境配置', link: '/framework/spring5/13.AOP环境搭建' },
             { text: 'AOP 操作（AspectJ 注解）常用', link: '/framework/spring5/14.AOP 操作（AspectJ 注解）常用' },
             { text: 'AOP 操作（AspectJ xml )', link: '/framework/spring5/15.AOP 操作（AspectJ xml )' },
+          ]
+        }
+      ],
+      // SpringCloud
+      '/framework/SpringCloud': [
+        {
+          text: 'SpringCloud Alibaba',
+          collapsed: false,
+          items: [
+            { text: '父模块项目搭建', link: '/framework/SpringCloud/1.父模块项目搭建' },
+            { text: 'Nacos 服务搭建', link: '/framework/SpringCloud/2.Nacos 服务搭建' },
+            { text: 'Nacos 注册中心', link: '/framework/SpringCloud/3.Nacos 注册中心' },
+            { text: 'Nacos 配置中心', link: '/framework/SpringCloud/4.Nacos 配置中心' },
+            { text: '模拟案例服务', link: '/framework/SpringCloud/5.模拟案例服务' },
+            { text: 'OpenFeign 服务调用', link: '/framework/SpringCloud/6.OpenFeign 服务调用' },
+            { text: 'Seata 服务端安装', link: '/framework/SpringCloud/7.Seata 服务端安装' },
+            { text: 'Seata 分布式事务', link: '/framework/SpringCloud/8.Seata 分布式事务' },
+            { text: 'Sentinel 熔断限流', link: '/framework/SpringCloud/9.Sentinel 熔断限流' },
+            { text: 'GateWay 网关服务', link: '/framework/SpringCloud/10.GateWay 网关服务' },
           ]
         }
       ],
