@@ -171,8 +171,8 @@ export default defineConfig({
           text: '爱意随风去',
           collapsed: false,
           items: [
-            { text: 'JAVA中锁介绍', link: '/other/0.JAVA中锁介绍' },
-            { text: 'JUC提供的相关锁', link: '/other/1.JUC提供的相关锁' },
+            { text: 'JAVA中锁名词介绍', link: '/other/0.JAVA中锁介绍' },
+            { text: 'Lock锁', link: '/other/1.Lock锁' },
             { text: '线程死锁的问题', link: '/other/3.线程死锁的问题' },
             { text: 'AQS介绍', link: '/other/4.AQS介绍' },
           ]
