@@ -12,10 +12,13 @@ hero:
   actions:
     - theme: brand
       text: Docker精简笔记
-      link: /docker/1.Docker安装.html
+      link: /docker/1.Docker安装.html 
     - theme: alt
-      text: Linux 命令
+      text: Linux 运维
       link: /linux/基础命令/1.解压缩
+    - theme: alt
+      text: 面试题
+      link: /interview/redis/0.Redis高频题
 
 # features:
 #   - title: Feature A
@@ -25,3 +28,4 @@ hero:
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
