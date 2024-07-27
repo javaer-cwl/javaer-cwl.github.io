@@ -176,6 +176,12 @@ export default defineConfig({
             { text: 'Lock锁', link: '/other/1.Lock锁' },
             { text: 'AQS介绍', link: '/other/4.AQS介绍' },
           ]
+        },
+        {
+          text:'',
+          items:[
+            {text:'一文解决freemarke',link:'/other/5.一文解决Freemarke'}
+          ]
         }
       ],
     },
