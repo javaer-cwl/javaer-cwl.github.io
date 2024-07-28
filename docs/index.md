@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: 面试题
       link: /interview/redis/0.Redis高频题
+    - theme: alt
+      text: 随笔
+      link: /other/0.JAVA中锁介绍
 
 # features:
 #   - title: Feature A
