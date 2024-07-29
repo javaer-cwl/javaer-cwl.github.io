@@ -46,7 +46,7 @@ export default defineConfig({
           text: 'Redis 面试全集',
           collapsed: false,
           items: [
-            { text: 'Redis基础', link: '/interview/redis/0.Redis高频题' },
+            { text: 'Redis高频题', link: '/interview/redis/0.Redis高频题' },
             { text: '缓存异常', link: '/interview/redis/0.Redis异常' },
             { text: '主从、哨兵、集群', link: '/interview/redis/2.Redis' },
             { text: 'Redis分布式锁原理', link: '/interview/redis/2.Redis11' },
@@ -180,7 +180,7 @@ export default defineConfig({
         {
           text:'',
           items:[
-            {text:'一文解决freemarke',link:'/other/5.一文解决Freemarke'}
+            {text:'一文解决Freemarke',link:'/other/5.一文解决Freemarke'}
           ]
         }
       ],
