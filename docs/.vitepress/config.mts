@@ -48,7 +48,7 @@ export default defineConfig({
           items: [
             { text: 'Redis高频题', link: '/interview/redis/0.Redis高频题' },
             { text: '缓存异常', link: '/interview/redis/0.Redis异常' },
-            { text: '主从、哨兵、集群', link: '/interview/redis/2.Redis' },
+            { text: '主从、哨兵、集群', link: '/interview/redis/1.Redis运行模式' },
             { text: 'Redis分布式锁原理', link: '/interview/redis/2.Redis11' },
             { text: 'RDB、AOF持久化机制', link: '/interview/redis/2.Redis112' },
           ]
