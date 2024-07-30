@@ -52,6 +52,14 @@ export default defineConfig({
             { text: 'Redis分布式锁原理', link: '/interview/redis/2.Redis11' },
             { text: 'RDB、AOF持久化机制', link: '/interview/redis/2.Redis112' },
           ]
+        },
+        {
+          text:'Netty 面试题',
+          collapsed:false,
+          items:[
+            {text:'Netty 高频题',link:'/interview/netty/0.netty高频题'},
+            {text:'IO 线程模型',link:'/interview/netty/1.IO线程模型'},
+          ]
         }
       ],
       // linux运维
