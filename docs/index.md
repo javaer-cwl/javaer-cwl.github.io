@@ -8,11 +8,14 @@ hero:
   tagline: 只想做一个快乐的钓鱼佬
   image:
     src: /index.png
-    alt: VitePress
+    alt: VitePress  
   actions:
     - theme: brand
       text: Docker精简笔记
       link: /docker/1.Docker安装.html 
+    - theme: alt
+      text: 公考
+      link: /examination/行测/判断推理/4.翻译推理
     - theme: alt
       text: Linux 运维
       link: /linux/基础命令/1.解压缩

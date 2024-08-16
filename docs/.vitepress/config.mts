@@ -7,12 +7,16 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico'}],
   ],
+  markdown:{
+    math: true
+  },
   description: "做一个快乐的钓鱼佬🎣",
   themeConfig: {
     logo: '/favicon.ico',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
+      { text: '公考', link: '/examination/行测/判断推理/4.翻译推理' },
       { text: '随笔', link: '/other/0.JAVA中锁介绍' },
       { text: 'Docker笔记', link: '/docker/1.Docker安装' },
       { text: 'Linux运维', link: '/linux/基础命令/1.解压缩' },
@@ -59,6 +63,7 @@ export default defineConfig({
           items:[
             {text:'Netty 高频题',link:'/interview/netty/0.netty高频题'},
             {text:'IO 线程模型',link:'/interview/netty/1.IO线程模型'},
+            {text:'TCP 协议',link:'/interview/netty/2.TCP相关问题'},
           ]
         }
       ],
@@ -192,6 +197,16 @@ export default defineConfig({
           ]
         }
       ],
+      '/examination/':[
+        {
+          text:'行测-资料分析',
+          collapsed: false,
+          items:[
+            {text:'资料分析-总结篇',link:'/examination/行测/资料分析/0.总结篇'},
+            {text:'资料分析-速算篇',link:'/examination/行测/资料分析/1.速算篇'},
+          ]
+        }
+      ]
     },
 
 
