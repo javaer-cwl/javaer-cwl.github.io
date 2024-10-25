@@ -16,7 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '公考', link: '/examination/行测/判断推理/4.翻译推理' },
+      { text: '公考', link: '/examination/行测/资料分析/0.总结篇' },
       { text: '随笔', link: '/other/0.JAVA中锁介绍' },
       { text: 'Docker笔记', link: '/docker/1.Docker安装' },
       { text: 'Linux运维', link: '/linux/基础命令/1.解压缩' },
@@ -204,6 +204,13 @@ export default defineConfig({
           items:[
             {text:'资料分析-总结篇',link:'/examination/行测/资料分析/0.总结篇'},
             {text:'资料分析-速算篇',link:'/examination/行测/资料分析/1.速算篇'},
+          ]
+        },
+        {
+          text:'行测-判断推理-逻辑判断',
+          collapsed: false,
+          items:[
+            {text:'逻辑关系_基础知识',link:'/examination/行测/判断推理/逻辑判断/0.逻辑关系_基础知识'},
           ]
         }
       ]
