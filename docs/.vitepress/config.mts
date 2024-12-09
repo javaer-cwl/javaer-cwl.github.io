@@ -16,9 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: 'SwiftUI', link: '/1' },
       { text: '行测', link: '/examination/行测/资料分析/0.总结篇' },
-      { text: '申论', link: '/examination/行测/资料分析/10.总结篇' },
       { text: '随笔', link: '/other/0.JAVA中锁介绍' },
       { text: 'Docker笔记', link: '/docker/1.Docker安装' },
       { text: 'Linux运维', link: '/linux/基础命令/1.解压缩' },
@@ -166,7 +164,7 @@ export default defineConfig({
       // docker笔记
       '/docker/': [
         {
-          text: 'Docker精简笔记',
+          text: 'Docker 基础篇',
           collapsed: false,
           items: [
             { text: 'Docker 安装', link: '/docker/1.Docker安装' },
@@ -177,6 +175,15 @@ export default defineConfig({
             { text: 'DockerFile 实战', link: '/docker/6.DockerFile实战' },
             { text: 'Docker-Compose', link: '/docker/7.Docker-Compose' },
             { text: 'Docker-Compose 实战', link: '/docker/8.Docker-Compose 实战' },
+          ]
+        },
+        {
+          text:"Docker 应用篇",
+          collapsed:false,
+          items:[
+            {
+              text:'前言',link:''
+            }
           ]
         }
       ],
