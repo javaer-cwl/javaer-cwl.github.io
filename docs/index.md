@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "实习两年半"
   text: "陈威龙的知识库"
-  tagline: 只想做一个快乐的钓鱼佬
+  tagline: 做一个快乐的钓鱼佬
   image:
     src: /index.png
     alt: VitePress  

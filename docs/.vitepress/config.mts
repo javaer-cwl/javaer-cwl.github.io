@@ -197,6 +197,7 @@ export default defineConfig({
             { text: '线程死锁', link: '/other/3.线程死锁的问题' },
             { text: 'Lock锁', link: '/other/1.Lock锁' },
             { text: 'AQS介绍', link: '/other/4.AQS介绍' },
+            { text: '一次git配置多用户的经历', link: '/other/6.一次git配置多用户的经历' },
           ]
         },
         {
