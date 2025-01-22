@@ -13,18 +13,27 @@ hero:
     - theme: brand
       text: Docker精简笔记
       link: /docker/1.Docker安装.html 
+
     - theme: alt
       text: 公考
       link: /examination/行测/判断推理/4.翻译推理
-    - theme: alt
-      text: Linux 运维
-      link: /linux/基础命令/1.解压缩
-    - theme: alt
-      text: 面试题
-      link: /interview/redis/0.Redis高频题
+      
     - theme: alt
       text: 随笔
       link: /other/0.JAVA中锁介绍
+
+    - theme: alt
+      text: 面试题
+      link: /interview/redis/0.Redis高频题
+
+    - theme: alt
+      text: Linux 运维
+      link: /linux/基础命令/1.解压缩
+
+    - theme: alt
+      text: 推荐一些开源项目
+      link: /any/0.推荐一些开源项目
+
 
 # features:
 #   - title: Feature A

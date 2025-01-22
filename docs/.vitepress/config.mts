@@ -198,6 +198,8 @@ export default defineConfig({
             { text: 'Lock锁', link: '/other/1.Lock锁' },
             { text: 'AQS介绍', link: '/other/4.AQS介绍' },
             { text: '一次git配置多用户的经历', link: '/other/6.一次git配置多用户的经历' },
+            { text: '推荐一些开源项目', link: '/other/temp/0.推荐一些开源项目' },
+            
           ]
         },
         {
