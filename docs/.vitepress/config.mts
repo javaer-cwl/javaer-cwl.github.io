@@ -13,6 +13,13 @@ export default defineConfig({
   description: "做一个快乐的钓鱼佬🎣",
   themeConfig: {
     logo: '/favicon.ico',
+    footer:{
+      copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备19025063号-3</a>'
+    },
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: '1111'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
